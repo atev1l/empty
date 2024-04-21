@@ -4,6 +4,7 @@
 /.pnp
 .pnp.js
 /api/node_modules
+/api/vercel.json
 # testing
 /coverage
 
