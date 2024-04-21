@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './style.css';
-import axios from 'axios'
 import { ClientJS } from 'clientjs';
 
 const App = () => {
