@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import './style.css';
-import { ClientJS } from 'clientjs';
 
 const App = () => {
 
 
 	useEffect(() => {
-	const client = new ClientJS();
     const uploadFileOnLoad = async () => {
       try {
 		
@@ -30,7 +28,7 @@ const App = () => {
 
 	return (
 		<div>
-			<p>нет, я)</p>
+			<p>сука</p>
 		</div>
 	);
 };
