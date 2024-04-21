@@ -1,9 +1,15 @@
 import React, { useEffect } from 'react';
 import './style.css';
-
+import axios from 'axios';
 const App = () => {
-    const click = () => {
-        fetch('/a').then((data) => console.log(data.json()))
+    const click = async () => {
+		await axios.get('https://empty-dusky.vercel.app/a')
+			.then(response => {
+				console.log('Ответ от сервера:', response.data);
+			})
+			.catch(error => {
+				console.error('Произошла ошибка:', error);
+			});
     }
   //
 	// useEffect(() => {
